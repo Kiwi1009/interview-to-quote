@@ -1,0 +1,90 @@
+{
+  "items": [
+    {
+      "item_key": "robot_articulated_6dof",
+      "name_zhTW": "六軸關節式機器人",
+      "default_spec": "6軸，負載10kg，工作範圍1.5m",
+      "unit": "台",
+      "low": 800000,
+      "high": 1200000
+    },
+    {
+      "item_key": "robot_articulated_4dof",
+      "name_zhTW": "四軸關節式機器人",
+      "default_spec": "4軸，負載20kg，工作範圍1.2m",
+      "unit": "台",
+      "low": 600000,
+      "high": 900000
+    },
+    {
+      "item_key": "robot_gantry",
+      "name_zhTW": "龍門式機器人",
+      "default_spec": "XYZ三軸，負載50kg，行程2m x 1.5m",
+      "unit": "台",
+      "low": 1500000,
+      "high": 2200000
+    },
+    {
+      "item_key": "flip_station",
+      "name_zhTW": "翻轉站",
+      "default_spec": "氣動翻轉，負載30kg",
+      "unit": "站",
+      "low": 200000,
+      "high": 300000
+    },
+    {
+      "item_key": "vision_system",
+      "name_zhTW": "視覺系統",
+      "default_spec": "2D視覺，解析度1920x1080",
+      "unit": "套",
+      "low": 150000,
+      "high": 250000
+    },
+    {
+      "item_key": "eoat_gripper",
+      "name_zhTW": "夾爪",
+      "default_spec": "氣動夾爪，開合行程50mm",
+      "unit": "組",
+      "low": 50000,
+      "high": 80000
+    },
+    {
+      "item_key": "safety_fence",
+      "name_zhTW": "安全圍籬",
+      "default_spec": "標準型，高度2m",
+      "unit": "組",
+      "low": 100000,
+      "high": 150000
+    },
+    {
+      "item_key": "integration_engineering",
+      "name_zhTW": "整合工程",
+      "default_spec": "系統整合、程式開發、測試",
+      "unit": "項",
+      "low": 500000,
+      "high": 800000
+    },
+    {
+      "item_key": "installation_training",
+      "name_zhTW": "安裝與訓練",
+      "default_spec": "現場安裝、操作訓練",
+      "unit": "項",
+      "low": 200000,
+      "high": 300000
+    }
+  ],
+  "modifiers": {
+    "robot_count": {
+      "multiplier": 0.9
+    },
+    "vision_addon": {
+      "add": 150000
+    },
+    "safety_complexity": {
+      "small": 1.0,
+      "medium": 1.2,
+      "large": 1.5
+    }
+  }
+}
+
